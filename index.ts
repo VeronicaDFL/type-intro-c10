@@ -34,4 +34,11 @@ enum taxForm {
 let zipCode: string | number = 12345//true
 zipCode = "ABCDE"//true
 //zipCode= true // not allowed
-console.log(zipCode)
+// console.log(zipCode)
+
+function sum(x: number, y: number): number {
+    return x+y
+
+}
+let total: number = sum(5,6)
+console.log(total)
