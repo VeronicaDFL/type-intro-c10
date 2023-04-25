@@ -41,4 +41,27 @@ function sum(x: number, y: number): number {
 
 }
 let total: number = sum(5,6)
-console.log(total)
+// console.log(total)
+
+function debug (message: string) : void {
+    console.log(message)
+}
+// debug("hello world")
+
+interface person {
+    firstName: string,
+    age: number,
+    children: string[],
+    hasCertificate?: boolean,
+}
+
+let veronica: person = { 
+    firstName: "me",
+    age: 23,
+    children: ["Simone","Luca"],
+    hasCertificate: false
+}
+console.log(veronica)
+
+
+
